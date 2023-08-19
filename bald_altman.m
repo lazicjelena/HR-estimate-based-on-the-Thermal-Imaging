@@ -1,3 +1,4 @@
+% results
 
 data1 = puls_ecg;
 data2 = puls_estimated;
