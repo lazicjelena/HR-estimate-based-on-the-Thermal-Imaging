@@ -4,7 +4,7 @@ close all;
 
 %% preproccessing of image and signal extraction
 
-name='LukaStancev';
+name='xxx';
 matObj = matfile(strcat(name,'_anfas.mat'));
 s=[];
 [~,~,data] = xlsread(strcat(name,'_anfas.csv')) ;
