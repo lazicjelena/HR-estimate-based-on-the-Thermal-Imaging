@@ -1,11 +1,11 @@
-name='LukaStancev';
+name='xxx';
 
 [~,~,data] = xlsread(strcat(name,'_anfas.csv')) ;
 [~,~,s] = xlsread(strcat(name,'.csv')) ;
 T = table2cell(podaci);
 t = cell2mat(T(:,1));
 ecg = cell2mat(T(:,1));
-T = table2cell(BozidarObradovic);
+T = table2cell(xxx);
 s = cell2mat(T(:,1));
 fs = 1000;
 fps = 60;
